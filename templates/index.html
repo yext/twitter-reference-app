@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div id="landing-page">
+    {% if auth_error %}
+      <p class="auth-error">{{auth_error}}</p>
+    {% endif %}
+    <h2 class="landing-page-tagline">Tweet Your Location Updates</h2>
+    <p class="landing-page-description">A Tweet will be sent for each update or group of updates on a particular location, as returned by the Yext webhook payload. If X number of locations are updated, then X number of Tweets should be posted.</p>
+    <a src="{{yext_auth_url}}" target="popup" onclick="window.open('{{yext_auth_url}}', 'name', 'width=600,height=600')" class="install-btn">
+      <span class="install-btn-content">
+        <svg class="install-btn-logo" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><path d="M12.42 9.655L5.397.027H.586l7.017 9.628-7.017 9.629h4.812zM12.201 6.353l1.315 1.803L19.441.027h-4.813L11.11 4.855zM13.516 11.154l-1.315 1.805-1.092 1.495 3.52 4.83h4.812z"/></g></svg>
+        <span class="install-btn-text">INSTALL ON YEXT</span>
+      </span>
+    </a>
+  </div>
+{% endblock %}

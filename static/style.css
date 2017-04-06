@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: ProximaNova-Light, Lato, 'Helvetica Neue', Arial, sans-serif;
+	color: #4d6272;
+}
+
+#banner {
+	background-color: #f0f2f4;
+	padding: 70px 0 50px;
+	text-align: center;
+}
+
+.logo-set {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 38px;
+}
+
+.logo-set .logo-container {
+	display: inline-block;
+	width: 85px;
+	margin: 0 22px;
+	text-align: right;
+}
+
+.logo-set .logo {
+	height: 38px;
+}
+
+.logo-set-carat {
+	width: 8px;
+	height: 14px;
+	margin: 0 8px;
+}
+
+.banner-title {
+	font-size: 56px;
+	font-weight: 300;
+	margin-top: 60px;
+}
+
+.banner-footer {
+	color: #8896a1;
+	font-size: 19px;
+	font-weight: 300;
+	margin-top: 50px;
+}
+
+#landing-page {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.landing-page-tagline {
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.landing-page-description {
+	color: #8896a1;
+	font-size: 17px;
+	line-height: 25px;
+	margin: 15px auto;
+	max-width: 820px;
+}
+
+.auth-error {
+	color: #f02615;
+}
+
+.install-btn {
+	border: solid 1px #23d2be;
+	color: #23d2be;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 50px;
+	padding: 12px 0;
+}
+
+.install-btn:hover {
+	color: #ffffff;
+	background-color: #23d2be;
+}
+
+.install-btn-content {
+	display: flex;
+}
+
+.install-btn-logo {
+	margin-left: 15px;
+}
+
+.install-btn-logo path {
+	fill: #23d2be;
+}
+
+.install-btn:hover .install-btn-logo path {
+	fill: #ffffff;
+}
+
+.install-btn-text {
+	display: inline-block;
+	letter-spacing: 0.5px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-right: 25px;
+}
+
+.app-install-finished {
+	border: solid 1px #e1e5e8;
+	box-shadow: 0 0 3px 0 #c4cbd0;
+	margin: 50px auto;
+	padding: 20px 0 10px;
+	text-align: center;
+	width: 820px;
+}
+
+.app-install-text {
+	color: #23d2be;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+}
+
+.app-install-success-icon {
+	display: inline-block;
+	background-image: url('check-success.svg');
+	margin-right: 10px;
+	width: 17px;
+	height: 13px;
+}
+
+.app-toast-relink {
+	color: #23d2be;
+	font-size: 13px;
+	margin-top: 10px;
+}

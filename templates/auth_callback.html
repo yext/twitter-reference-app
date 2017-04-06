@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+  <script>
+    // This should be rendered within the OAuth pop-up window.
+    // Redirects parent window to the given redirect URL and closes the pop-up.
+    window.opener.location = "{{redirect}}";
+    window.close();
+  </script>
+{% endblock %}

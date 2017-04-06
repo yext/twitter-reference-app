@@ -1,0 +1,14 @@
+# Yext app's client ID, used for OAuth2 flow to connect to Yext.
+YEXT_CLIENT_ID = 'yextclientid'
+
+# Yext app's API key, used for OAuth2 flow to connect to Yext.
+YEXT_API_KEY = 'yextapikey'
+
+# Twitter app's consumer key, used for OAuth flow to connect to Twitter.
+TWITTER_CONSUMER_KEY = 'twitterconsumerkey'
+
+# Twitter app's consumer secret, used for OAuth flow to connect to Twitter.
+TWITTER_CONSUMER_SECRET = 'twitterconsumersecret'
+
+# Secret key for the flask application, used to store data in user session.
+SECRET_KEY = 'secretkey'

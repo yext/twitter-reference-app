@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+
+  <body>
+    <div id="banner">
+      <div class="logo-set">
+        <span class="logo-container">
+          <img class="logo" src="{{ url_for('static', filename='twitter-logo.png') }}">
+        </span>
+        <img class="logo-set-carat" src="{{ url_for('static', filename='carat-left.svg') }}">
+        <img class="logo-set-carat" src="{{ url_for('static', filename='carat-right.svg') }}">
+        <span class="logo-container">
+          <img class="logo" src="{{ url_for('static', filename='yext-logo.svg') }}">
+        </span>
+      </div>
+      <h1 class="banner-title">Twitter Location Update Notifications</h1>
+      <h3 class="banner-footer">Yext Sample Reference App</h3>
+    </div>
+    <div id="content">
+      {% block body %}{% endblock %}
+    </div>
+  </body>
+</html>
