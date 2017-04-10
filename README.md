@@ -3,7 +3,7 @@ Reference app that posts to Twitter when a Yext location updates.
 
 ## Prerequisites
 1. [Create a Yext developer account and add an app.](http://developer.yext.com/docs/guides/get-started/)
-2. [Create a Twitter developer developer account and add an app.](https://apps.twitter.com/)
+2. [Create a Twitter developer account and add an app.](https://apps.twitter.com/)
 
 ## Setup
 1. Clone this repository.
